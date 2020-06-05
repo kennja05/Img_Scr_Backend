@@ -152,6 +152,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
+  bundler (~> 2.1, >= 2.1.4)
   byebug
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
@@ -166,4 +167,4 @@ RUBY VERSION
    ruby 2.6.1p33
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
