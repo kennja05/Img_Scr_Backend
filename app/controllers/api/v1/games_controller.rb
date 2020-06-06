@@ -12,6 +12,11 @@ class Api::V1::GamesController < ApplicationController
         render json: @game
     end
 
+    def allGames
+        @games = Game.all
+        render json: @games
+    end
+
     private
 
     def gameParams
